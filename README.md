@@ -16,34 +16,34 @@ someone could have actually brute-force logged into some of them since some of t
 devices do not have account lockout configured for excessive failed login attempts.
 
 
-3. Data Collection
+2. Data Collection
 ● Goal: Gather relevant data from logs, network traffic, and endpoints.
 ● Activity: Ensure data is available from all key sources for analysis.
 
 
-5. Data Analysis
+3. Data Analysis
 ● Goal: Analyze data to test your hypothesis.
 ● Activity: Look for anomalies, patterns, or indicators of compromise (IOCs) using various tools and
 techniques.
 
 
-7. Investigation
+4. Investigation
 ● Goal: Investigate any suspicious findings.
 ● Activity: Dig deeper into detected threats, determine their scope, and escalate if necessary. See if
 anything you find matches TTPs within the MITRE ATT&CK Framework.
 
 
-9. Response
+5. Response
 ● Goal: Mitigate any confirmed threats.
 ● Activity: Work with security teams to contain, remove, and recover from the threat.
 
 
-11. Documentation
+6. Documentation
 ● Goal: Record your findings and learn from them.
 ● Activity: Document what you found and use it to improve future hunts and defenses.
 
 
-13. Improvement
+7. Improvement
 ● Goal: Improve your security posture or refine your methods for the next hunt.
 ● Activity: Adjust strategies and tools based on what worked or didn’t.
 ○ Anything we could have done to prevent the thing we hunted for? Any way we could have
